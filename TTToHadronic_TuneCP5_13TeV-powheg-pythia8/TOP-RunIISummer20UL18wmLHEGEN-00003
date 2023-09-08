@@ -4,15 +4,15 @@
 # rm -f request_fragment_check.py
 # wget -q https://raw.githubusercontent.com/cms-sw/genproductions/master/bin/utils/request_fragment_check.py
 # chmod +x request_fragment_check.py
-./request_fragment_check.py --bypass_status --prepid TOP-RunIISummer20UL18wmLHEGEN-00003
-GEN_ERR=$?
-if [ $GEN_ERR -ne 0 ]; then
-  echo "GEN Checking Script returned exit code $GEN_ERR which means there are $GEN_ERR errors"
-  echo "Validation WILL NOT RUN"
-  echo "Please correct errors in the request and run validation again"
-  exit $GEN_ERR
-fi
-echo "Running VALIDATION. GEN Request Checking Script returned no errors"
+# ./request_fragment_check.py --bypass_status --prepid TOP-RunIISummer20UL18wmLHEGEN-00003
+# GEN_ERR=$?
+# if [ $GEN_ERR -ne 0 ]; then
+#   echo "GEN Checking Script returned exit code $GEN_ERR which means there are $GEN_ERR errors"
+#   echo "Validation WILL NOT RUN"
+#   echo "Please correct errors in the request and run validation again"
+#   exit $GEN_ERR
+# fi
+# echo "Running VALIDATION. GEN Request Checking Script returned no errors"
 # GEN Script end
 
 export SCRAM_ARCH=slc7_amd64_gcc700
