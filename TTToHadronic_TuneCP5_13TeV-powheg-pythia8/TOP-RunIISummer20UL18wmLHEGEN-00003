@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # GEN Script begin
-rm -f request_fragment_check.py
-wget -q https://raw.githubusercontent.com/cms-sw/genproductions/master/bin/utils/request_fragment_check.py
-chmod +x request_fragment_check.py
+# rm -f request_fragment_check.py
+# wget -q https://raw.githubusercontent.com/cms-sw/genproductions/master/bin/utils/request_fragment_check.py
+# chmod +x request_fragment_check.py
 ./request_fragment_check.py --bypass_status --prepid TOP-RunIISummer20UL18wmLHEGEN-00003
 GEN_ERR=$?
 if [ $GEN_ERR -ne 0 ]; then
