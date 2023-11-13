@@ -28,4 +28,5 @@ cd ..
 
 ### Test
 ```bash
+DelphesCMSFWLite ./cards/delphes_card_CMS.tcl output.root /u/user/yewzzang/work/cms_dataset/khu-dataset-generation/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/data/test_0.root
 ```
