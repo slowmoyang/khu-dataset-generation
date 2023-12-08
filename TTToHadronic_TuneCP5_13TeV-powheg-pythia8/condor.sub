@@ -1,0 +1,9 @@
+executable              = loop_TT_make.sh
+log                     = /d0/scratch/yewzzang/log/TT_make_test_$(Process).log
+output                  = /d0/scratch/yewzzang/output/TT_make_test_$(Process).txt
+error                   = /d0/scratch/yewzzang/error/errors_test_$(Process).txt
+arguments               = $(Process)
+
+should_transfer_files = YES
+
+queue 5000 
